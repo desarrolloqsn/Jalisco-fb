@@ -237,7 +237,7 @@ function App() {
     const storedPassword = localStorage.getItem('password');
   
    // Si se encuentran almacenados, realizar el inicio de sesión automáticamente
-   if (storedUsername === "analistas" ||storedPassword === "qsnvzla" && storedPassword === "qsn123" || storedPassword === "qsnvzla2023") {
+   if (storedUsername === "analistas" ||storedPassword === "qsnjalisco" && storedPassword === "qsn123" || storedPassword === "qsnjalisco2023") {
     const user = {
       username: storedUsername,
       roles: ['user'],
